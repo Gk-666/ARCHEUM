@@ -1,0 +1,114 @@
+body {
+    font-family: "Geologica", sans-serif;
+    display: grid;
+    grid-template-rows:auto ;
+    gap: 2px;
+}
+
+.container{
+    background-image: url("../Material/pexels-misael-garcia-1707823.jpg");  
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    color:#fff;
+    padding: 30px;
+}
+
+.head{
+    padding-right: 5px;
+    display: flex ;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.head ul{
+    padding-top: 10px;
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+}
+.head ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 30px;
+}
+
+.head ul li a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+.head ul li a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px ;
+    left: 25%;
+    background-color: #fff;
+    transition: width 0.3s;
+}
+.head ul li a:hover::after{
+    width: 50%;
+}
+.icon {
+   position: absolute;
+   right: 6%;
+   bottom: 18%;
+}
+.icon img{
+    width: 50px;
+    display: inline-block;
+    margin: 5px;
+}
+.banner{
+    margin-top: 20%;
+}
+.house{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.house img{
+    object-fit: cover;
+    width: 400px;
+    height: 257px;
+}
+.box{
+    pad: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    background-image: url(../Material/pexels-alex-azabache-4039921.jpg);
+    background-size: cover;
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    color: #e7e2e2;
+    text-shadow: 2px 2px 2px #3e3c3c ;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.services{
+    padding:3px ;
+    background-image: url(../Material/pexels-miguel-á-padriñán-194096.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.services ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+    font-weight: 600;
+    font-size: larger;
+    color: aliceblue;
+    text-shadow: 2px 2px 3px #3e3c3c ;
+}
+.services h2{
+    color: aliceblue;
+    text-shadow: 2px 2px 3px #3e3c3c ;
+}

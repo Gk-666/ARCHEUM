@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-page</title>
+    <style>
+        body{
+            background-image: url(./Material/pexels-daniel-absi-952670.jpg);
+            background-size: 100%;
+        }
+        button{
+            background-color: blueviolet;
+            padding: 5px;
+            width: 50%;
+            color: #fff;
+            font-family: 'Geologica', sans-serif;
+            border-radius: 0.2cm;
+            border: 2px solid azure;
+        }
+        table{
+            font-weight: 600;
+            background-color: rgb(148,131,149);
+            border: 1px solid;
+            text-align: left;
+            padding: 10px;
+            color: rgb(19, 19, 19);
+            border-radius: 0.2cm;
+        }
+        .text-box{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: azure;
+            font-family: 'Geologica', sans-serif;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        form{
+            opacity: 90%;
+            margin: auto;
+            border: 2px solid;
+            padding: 20px;
+            border-radius: 0.2cm;
+        }
+        input,textarea{
+            font-size: 1rem;
+            border-radius: 0.1cm;
+            background-color: white;
+            opacity: 90%;
+            padding: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 4%;
+        }
+        </style>
+</head>
+<body>
+    <div class="text-box">
+        <form action="" value="post">
+            <h1>Registor</h1>                
+            <table>
+                <tr><td>Name :</td><td><input type="text" value="" placeholder="Enter your name" maxlength="30" size="30"></td></tr>
+                <tr><td>Email :</td><td><input type="email" value="" placeholder="Enter your mail" maxlength="30" size="30"></td></tr>
+                <tr><td>Password :</td><td><input type="password" value="" placeholder="Enter password" maxlength="10" size="30"></td></tr>
+                <tr><td>Mob no. :</td><td><input type="number" placeholder="Enter number"></td></tr>
+            </table>
+            <br><button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
